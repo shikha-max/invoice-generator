@@ -1,0 +1,73 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+
+@import "./structure/variables";
+// @import "./structure/footer";
+@import "./structure/horizontal-nav";
+// @import "./structure/layouts";
+@import "./structure/page-head";
+@import "./structure/right-sidebar";
+// @import "./structure/topbar";
+@import "./structure/vertical";
+@import "./loader";
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,p {
+    color: $gray-700;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }
+  
+  label {
+    font-weight: 500;
+  }
+  
+  
+ 
+  
+  
+  .drop-down-menu-color {
+    color: $gray-500;
+    &:hover {
+      color: $gray-600;
+    }
+  }
+  
+  .color-white {
+    color: $white;
+  }
+  
+  
+
+ 
+ 
+  
+  .folderSelection{
+    background-color: $card-bg;
+    border-radius: 3px;
+  }
+  
+  .link_color{
+    color: $blue;
+    cursor: pointer;
+  }
+  
+ 

@@ -1,0 +1,105 @@
+/* @import 'bootstrap/dist/css/bootstrap.css'; */
+* {
+    scroll-behavior: smooth;
+  }
+  
+  html, body {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+      Helvetica, Arial, 'Lucida Grande', sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 10;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    color: #fff;
+    text-align: left;
+    // background-color: #222736;
+    box-sizing: border-box;
+  }
+    
+  
+  
+  a:hover:not(.active) {
+    color: white;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+ 
+  
+  
+  ul {
+    margin-top: 10px;
+  }
+  
+  .stack__items>ul {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    text-decoration: none;
+    color: #108db8;
+    font-weight: bold;
+  }
+  
+  .padding-left-10 {
+    padding-left: 10px;
+  }
+  
+  .content {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    direction: ltr;
+    font-size: 0.85rem;
+  }
+  
+  .content>p {
+    padding: auto;
+  }
+  
+  .content>h2 {
+    width: 100%;
+    text-align: center;
+    color: #333;
+  }
+  
+  .center-page {
+    padding: 20%;
+  }
+  
+  .content>tr, td {
+    border: 1px solid gray;
+  }
+  
+  .content>table {
+    width: 80%;
+  }
+  
+  .note {
+    font-size: 0.9rem;
+    color: brown;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  thead {
+    border: 1px solid;
+    font-weight: bolder;
+  }
+  
+  img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  
+
